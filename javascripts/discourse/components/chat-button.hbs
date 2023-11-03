@@ -1,0 +1,8 @@
+{{#if this.mustShow}}
+    <DButton
+        @id="chatbot-button"
+        @class="btn-floating open-new-message-btn"
+        @action={{action this.launchBotchat}}
+        @icon="robot"
+    />
+{{/if}}

@@ -1,0 +1,9 @@
+#chatbot-button .d-icon {
+    margin: 0;
+    width: 35px;
+    height: 35px;
+}
+#chatbot-button.btn-floating.open-new-message-btn:focus {
+    border-color: var(--primary-medium);
+    outline: 1px solid var(--primary-medium);
+}
