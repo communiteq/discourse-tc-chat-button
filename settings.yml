@@ -1,4 +1,4 @@
 chatbot_username:
   default: ""
-button_title:
-  default: "Chat with Chatbot"
+chatbutton_icon:
+  default: "robot"
