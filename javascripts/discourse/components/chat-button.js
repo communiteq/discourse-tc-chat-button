@@ -17,7 +17,7 @@ export default class ChatButton extends Component {
 
     @action
     launchBotchat() {
-        this.chat.upsertDmChannelForUsernames([settings.chatbot_username])
+        this.chat.upsertDmChannel({usernames: [settings.chatbot_username]})
         .then((chatChannel) => {
             this.router.transitionTo("chat.channel", ...chatChannel.routeModels);
         });
